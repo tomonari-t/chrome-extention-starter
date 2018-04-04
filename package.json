@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extention-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomonari-t/chrome-extention-starter.git"
+  },
+  "keywords": [
+    "chrome-extention"
+  ],
+  "author": "tomonari-t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomonari-t/chrome-extention-starter/issues"
+  },
+  "homepage": "https://github.com/tomonari-t/chrome-extention-starter#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1"
+  }
+}

@@ -23,5 +23,8 @@
             "128": "images/icon.png"
         }
     },
-    "options_page": "html/options.html"
+    "chrome_url_overrides": {
+        "newtab": "html/override_page.html"
+    },
+    "options_page": "html/option_page.html"
 }

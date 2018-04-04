@@ -1,5 +1,5 @@
 const kButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"]
-const page = document.getElementById("buttonDiv");
+const optionButtons = document.getElementById("optionWrapper");
 
 function constructOptions(kButtonColors) {
     for (let item of kButtonColors) {
@@ -12,9 +12,10 @@ function constructOptions(kButtonColors) {
                 console.log("color is " + item);
             })
         });
-        page.appendChild(button);
+        optionButtons.appendChild(button);
     }
 }
 window.onload = () => {
+    console.log("onload!");
     constructOptions(kButtonColors);
 };

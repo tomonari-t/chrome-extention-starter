@@ -1,7 +1,6 @@
 const initPoup = () => {
 
     let changeColor = document.getElementById("changeColor");
-    console.log(changeColor)
     chrome.storage.sync.get("color", (data) => {
         console.log(data);
         changeColor.style.backgroundColor = data.color;
